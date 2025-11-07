@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "91a9c559-0e97-4233-94e8-2c6d707921e5",
+		"name": "Serfinsa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45302342",
+		"_collection_link": "https://kevinmenjivar.postman.co/workspace/Kevin-Menjivar's-Workspace~fa65ed82-81a3-4510-8b94-7d53b96c7ed5/collection/45302342-91a9c559-0e97-4233-94e8-2c6d707921e5?action=share&source=collection_link&creator=45302342"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"mail\": \"admin@correo.com\",\r\n    \"contrasenia\": \"1234\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/serfinsa/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"serfinsa",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistrarUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"mail\": \"admin@correo.com\",\r\n    \"contrasenia\": \"1234\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/serfinsa/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"serfinsa",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
